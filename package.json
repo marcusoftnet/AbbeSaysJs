@@ -2,9 +2,10 @@
   "name": "AbbeSaysJs",
   "version": "0.0.1",
   "description": "The JavaScript/Node/Express version of AbbeSays. A site that stores fun quotes from your kids",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha -u bdd -R spec"
+    "test": "./node_modules/mocha/bin/mocha -u bdd -R min -w",
+    "start" : "node app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/marcusoftnet/AbbeSaysJs",
   "dependencies": {
+    "monk": "*"
   },
   "devDependencies": {
         "mocha": "1.17.*",
