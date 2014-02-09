@@ -1,0 +1,25 @@
+{
+  "name": "AbbeSaysJs",
+  "version": "0.0.1",
+  "description": "The JavaScript/Node/Express version of AbbeSays. A site that stores fun quotes from your kids",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -u bdd -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcusoftnet/AbbeSaysJs.git"
+  },
+  "author": "Marcus Hammarberg (@marcusoftnet)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcusoftnet/AbbeSaysJs/issues"
+  },
+  "homepage": "https://github.com/marcusoftnet/AbbeSaysJs",
+  "dependencies": {
+  },
+  "devDependencies": {
+        "mocha": "1.17.*",
+        "should": "3.1.*"
+  }
+}
